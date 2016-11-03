@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
 * {
   box-sizing: border-box;
 }
@@ -29,13 +31,26 @@ body {
   width: 4.25in;
   height: 3.5in;
   text-align: center;
-  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card h2 {
+  font-family: 'Special Elite', cursive;
+}
+
+.card p {
+  max-width: 80%;
+  margin: 0 auto;
+  font-family: 'Special Elite', cursive;
 }
 
 .card-back {
-  background-image: url(https://www.fillmurray.com/200/200);
+  background-image: url(logo.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 3.5in;
 }
 
 .blank {
